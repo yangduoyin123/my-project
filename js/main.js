@@ -347,7 +347,13 @@ window.onmousewheel=document.onmousewheel=scrollFunc;//IE/Opera/Chrome/Safari
 var iB = true;
 //监听窗口改变
 window.onresize = function(){  
-    document.getElementsByTagName("html")[0].style.fontSize = document.documentElement.clientWidth/20 + 'px'; 
+    resize();
+}
+
+resize();
+
+function resize(){
+	document.getElementsByTagName("html")[0].style.fontSize = document.documentElement.clientWidth/20 + 'px'; 
     var h = window.innerHeight;
     var w = window.innerWidth;
     if(w/h >= 1920/1080){
