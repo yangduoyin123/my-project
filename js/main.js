@@ -42,7 +42,7 @@
             y = 200 + Math.sqrt(40000 - Math.pow(x-200,2));
             m--;
         }
-        else{
+        else{  
             x = m;
             y = 200 - Math.sqrt(40000 - Math.pow(x-200,2));
             m++;
