@@ -23,7 +23,7 @@
     
     var box01_index = 0;
     var box01_p = document.getElementById('box01_text').children;
-    function boxOne() {       
+    function boxOne() {                
 //      if(box01_index >=0 && box01_index <= 2){
 //          box01_p[box01_index].style.opacity = '1';
 //          box01_index ++;
